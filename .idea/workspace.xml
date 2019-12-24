@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd095d4f-7495-491c-b5cf-e015edf2f95b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DynamicProgrammingQuestions/MinimumEditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DynamicProgrammingQuestions/MinimumEditDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinimumEditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinimumEditDistance.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="-352">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestCommonSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LongestCommonSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -80,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/RodCutting.java" />
         <option value="$PROJECT_DIR$/src/MinimumEditDistance.java" />
         <option value="$PROJECT_DIR$/src/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/LongestCommonSubsequence.java" />
       </list>
     </option>
   </component>
@@ -144,7 +152,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.LongestCommonSubsequence">
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequence" />
+      <module name="DynamicProgrammingQuestions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestIncreasingSubsequence" />
       <module name="DynamicProgrammingQuestions" />
@@ -211,9 +224,11 @@
       <item itemvalue="Application.RodCutting" />
       <item itemvalue="Application.MinimumEditDistance" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.LongestCommonSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.MinimumEditDistance" />
         <item itemvalue="Application.RodCutting" />
@@ -239,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577122708774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hhnm">
+      <created>1577198926343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577198926343</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hhnm">
+      <created>1577199025762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577199025762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,11 +419,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="-352">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
