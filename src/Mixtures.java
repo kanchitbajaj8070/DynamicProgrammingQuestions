@@ -60,6 +60,7 @@ public static int cumulativeSum( int [] mixture , int i, int j)
         if (dp[s][e] != -1)
             return dp[s][e];
         dp[s][e] = Integer.MAX_VALUE;
+        // breaking down the problem for each k
         for (int k = s; k < e; k++) {
             dp[s][e] = Math.min(dp[s][e], MixturesSolveByDP(mixture, s, k, dp) + MixturesSolveByDP(mixture, k + 1, e, dp)
                     + cumulativeSum(mixture, s, k) * cumulativeSum(mixture, k + 1, e));
